@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Olamide Olateju Emmanuel" />
+    <meta name="keywords" content="GK TECH, Gbenga Obe GK Tech Store" />
+    <meta
+      name="description"
+      content="GK Tech is an online store where you can get all your digital accessories such as phones and tablets and powerbanks and even audio devices at affordable prices and delivered to you"
+    />
+    <meta name="application-name" content="GK TECH STORE" />
+    <title>
+      GK TECH | Online Electronics Store To Buy Your Phones,Headsets,Powwrbanks
+      and more...
+    </title>
+    <meta name="theme-color" content="yellowred" />
+    <!-- CSS FILES AND ICON BOX AND PACKS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/lib/font-awesome/css/font-awesome.css" />
+    <link
+      rel="stylesheet"
+      href="css/lib/font-awesome/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="css/lib/animate/animate.min.css" />
+    <link rel="stylesheet" href="css/lib/ionicons/css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/lib/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/lib/lightbox/css/lightbox.min.css" />
+    <link  rel="stylesheet" href="css/lib/font-awesome/fonts/fontawesome-webfont.woff" />
+      <script src="bootstrap.bundle.min.js">
+
+        </script>
+        <script src="app.js">
+            </script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkBtn">
+        <i class="ion-android-menu"></i>
+      </label>
+      <h2 class="logo">GK TECH</h2>
+      <a class="cartIcon" href="cart.html">
+        <i class="ion-ios-cart">
+<span onchange="addtoStorage()" style="color: white;border-radius: 200px;
+text-align: center;width: 25px;z-index: 200;top: -5px;font-size: 16px;position: absolute;left: 13px;background: orange;border: none;border-radius: 70px;" id="cart-quantity" class="cart-quantity">
+0
+</span>
+</i>
+       
+</a>
+      <ul>
+        <li><a class="active" href="index.html">HOME</a></li>
+        <li><a href="#powerbanks">POWERBANKS</a></li>
+        <li><a href="#audio">AUDIO</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="help.html">HELP</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="feed.html">FEEDBACK</a></li>
+      </ul>
+    </nav>
+    <div class="list">
+          
+    </div>
+<div style="margin-top: 90px;box-shadow: 20px 40px 10px whitesmoke;display:block;" class="container-fluid">
+    <!-- <div class="card">
+        <img style="width: 100%;" src="gk/1 (1) (1).jpg" alt="Oraimo Massive 27,000 Mah PowerBank">
+        <h1>Oraimo Massive 27,000 Mah PowerBank</h1>
+        <p class="price">&#8358; 15,000</p>
+        <p>Oraimo 27000mAh Power-Bank OPB-P271D. Ultra Fast Charging and Superior Quality</p>
+        <p><button>ADD TO CART</button></p>
+    </div> -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+
+        <div class="container bg-white">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/1 (1) (1).jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button id="ugly" onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+            <div id="btns" style="display:none;" class="btns-show">
+                        <button><i class="ion-android-add"></i></button>
+                        <span class="value">1</span>
+                        <button><i class="ion-minus"></i></button>
+                        <button><i class="ion-android-delete"></i></button>
+            </div>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Oraimo 27,000Mah PowerBank OPB-P271D
+                    </div>
+                    <div class="price product-price"> &#8358; 15,000 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/jm1.jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Oraimo 20,000Mah PowerBank OPB-P208DN
+                    </div>
+                    <div class="price product-price"> &#8358; 11,500 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/1 (2).jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Oraimo 10,000Mah PowerBank OPB-P118D
+                    </div>
+                    <div class="price product-price"> &#8358; 8,000 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/st20.jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell()" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Itel Star 200 20,000Mah PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358; 9,500 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/jm22.jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Oraimo 40,000Mah PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358; 26,000 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/111 (9).jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Itel Star 200 20,000Mah PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358; 9,500 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/st.jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Itel Star 300 30,000mAh PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358; 15,000 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/star100.jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Itel Star 100 10,000mAh PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358; 7,500 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/15k.jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Itel Star 150 15,000mAh PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358;8,500 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/10 (9).jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Itel Star 100 10,000mAh PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358;7,500 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/16k1.jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Oraimo P160 16,000mAh PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358;10,000 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                    <div class="product"> 
+                        <img class="product-image" style="margin-left:35px" src="gk/16k2.jpg" alt="Oraimo PowerBank">
+                    </div>
+                    <div class="tag bg-red">
+                        <button onclick="tell();" class="cart-add">
+                            <i class="ion-android-cart">
+                            </i> ADD TO CART
+                        </button>
+                        </div>
+                    <div class="title pt-4 pb-1 product-name">Oraimo 16,000mAh P160 PowerBank
+                    </div>
+                    <div class="price product-price"> &#8358;10,000 </div>
+                    <div class="d-flex align-content-center justify-content-center"> 
+                    <a style="text-decoration: none;" href="wholesale.html">Buy Bulk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+  </body>
+</html>
